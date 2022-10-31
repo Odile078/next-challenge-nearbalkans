@@ -48,6 +48,7 @@ module.exports = {
       }
       ,
       backgroundImage:{
+        textGradient:'linear-gradient(to bottom,(#9092fb,#86b5ef,#7bdde2))',
         heroBackground: 'radial-gradient(50% 50% at 50% 50%,#8e9af9 0,rgba(127,208,231,0) 100%)',
         nearLogoBackground:'radial-gradient(50% 50% at 50% 50%,#8e9af9 0,rgba(127,208,231,0) 100%)',
         targetLogoBackground:'radial-gradient(50% 50% at 50% 50%,#7bdde2 0,rgba(123,221,226,0) 100%)',
@@ -62,7 +63,9 @@ module.exports = {
           DEFAULT:'#3f4246',//text-color
           light:'#676767',//hero-paragraph-color
         },
-        textGradient:''      
+        brandBlue:'#9092fb',
+        brandIndigo:'#86b5ef' ,
+        brandGreen:'#7bdde2' ,   
       },
       container:{
         center:true

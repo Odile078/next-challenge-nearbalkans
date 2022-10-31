@@ -5,7 +5,7 @@ const Navbar = () => {
     const [popupIsOpen,setPopupIsOpen] =useState()
     return (
         <header className="fixed top-0 z-30 w-full bg-white">
-            <nav className="container relative flex items-center justify-between w-11/12 px-4 mx-auto md:w-5/6 md:px-10 w my-25 max-w-7xl">
+            <nav className="container relative flex items-center justify-between w-11/12 mx-auto md:w-5/6 w my-25 max-w-7xl">
             <ul className="flex items-center">
                 <li className="relative lg:pr-11 pr-1.5 after:absolute after:top-0  after:content-[''] after:w-[2px] after:right-0 after:h-full after:bg-gray-200">
                     <Link href="/dacade">
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <button className="hidden px-5 py-3 leading-4 bg-transparent border border-none rounded-full cursor-pointer lg:block text-default focus:outline-none w-fit rounded-4xl">Start The Course</button>
                 <Link href="/createWallet">
                     <a>
-                        <button className="inline-block px-5 py-3 ml-12 leading-4 text-white border border-solid rounded-full cursor-pointer bg-zinc-700 focus:outline-none transition-250ms w-fit border-accent rounded-4xl">Create Wallet</button>
+                        <div className="inline-block px-4 py-3 ml-12 leading-4 text-white border border-solid rounded-full cursor-pointer sm:px-5 bg-zinc-700 focus:outline-none transition-250ms w-fit border-accent rounded-4xl">Create Wallet</div>
                     </a>
                 </Link>
             </div>          
