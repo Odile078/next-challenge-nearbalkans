@@ -5,4 +5,10 @@
 body{
   font-family: 'Noto Sans', sans-serif
 }
-
+@layer components{
+  .text-gradient{
+    @apply w-fit bg-clip-text ;
+    background: linear-gradient(#9092fb,#86b5ef,#7bdde2);
+    -webkit-text-fill-color: transparent;
+  }
+}
