@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { useState } from "react";
 
 const Navbar = () => {
+    const [popupIsOpen,setPopupIsOpen] =useState()
     return (
         <header className="fixed top-0 z-30 w-full bg-white">
             <nav className="container relative flex items-center justify-between w-11/12 px-4 mx-auto md:w-5/6 md:px-10 w my-25 max-w-7xl">

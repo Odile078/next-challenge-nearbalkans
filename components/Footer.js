@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>   
                     <ul className="flex items-center justify-between space-x-4 lg:space-x-6 lg:pl-61">
                         <li className="pl-2">
-                            <Link href="/nearBalkans">
+                            <Link href="https://twitter.com/NEARbalkan">
                                 <a>
                                     <div class="">                        
                                         <picture>
@@ -28,7 +28,7 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="">
-                            <Link href="/nearBalkans">
+                            <Link href="https://discord.com/invite/NgSYSmJXg9">
                                 <a>
                                     <div class="">                        
                                         <picture>
@@ -39,7 +39,7 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="">
-                            <Link href="/nearBalkans">
+                            <Link href="https://t.me/nearbalkanshub">
                                 <a>
                                     <div class="">                        
                                         <picture>
@@ -50,7 +50,7 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="">
-                            <Link href="/nearBalkans">
+                            <Link href="https://www.facebook.com/nearbalkans">
                                 <a>
                                     <div class="">                        
                                         <picture>
@@ -61,7 +61,18 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="">
-                            <Link href="/nearBalkans">
+                            <Link href="https://www.linkedin.com/company/nearbalkans">
+                                <a>
+                                    <div class="">                        
+                                        <picture>
+                                            <img alt="linkedIn icon" src="/svgs/linkedIn.svg" className="object-cover object-center" />
+                                        </picture>
+                                    </div>                           
+                                </a>
+                            </Link>
+                        </li>
+                        <li className="">
+                            <Link href="https://www.instagram.com/nearbalkans/">
                                 <a>
                                     <div class="">                        
                                         <picture>
@@ -72,7 +83,7 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="pr-2">
-                            <Link href="/nearBalkans">
+                            <Link href="https://medium.com/@nearbalkans">
                                 <a>
                                     <div class="">                        
                                         <picture>
@@ -92,7 +103,7 @@ const Footer = () => {
                         </Link>
                     </li>
                     <li className="">
-                        <Link href="/nearBalkans">
+                        <Link href="mailto: info@nearbalkans.org">
                             <a className="text-lg text-center text-brandBlack">info@nearbalkans.org</a>
                         </Link>
                     </li>
